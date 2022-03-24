@@ -447,6 +447,17 @@ header ul a:hover, header ul a.active {
   padding: 30px 0;
 }
 
+.service-section .btn {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #000;
+  border-radius: 10px 0 10px 0;
+  -webkit-border-radius: 10px 0 10px 0;
+  -ms-border-radius: 10px 0 10px 0;
+  -moz-border-radius: 10px 0 10px 0;
+}
+
 .courses-section {
   background-color: #fff;
   padding: 30px 0;

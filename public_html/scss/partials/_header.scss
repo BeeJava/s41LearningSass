@@ -5,9 +5,9 @@ $link_hover_bg: $white;
 $link_hover_color: $red;
 
 header{
-    background-color: $header_bg;
-    padding: 20px 0;
+    
 
+    @include sectionStyle($header_bg);
     a{
         color: $header_color;
     }
