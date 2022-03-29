@@ -28,6 +28,9 @@
         -moz-border-radius: $tl $tr $br $bl;
     }
     @else{
-        
-
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -ms-border-radius: 0;
+        -moz-border-radius: 0;
+    }
 }
