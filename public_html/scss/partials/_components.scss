@@ -37,7 +37,7 @@ none, block, flex, inline-block, inline, inline-flex
 // lighten($color, $amount)
 // rgba($color, opacity)
 
-%btn{
+.btn{
     display: inline-block;
     padding: 10px 30px;
     border: none;
@@ -46,7 +46,7 @@ none, block, flex, inline-block, inline, inline-flex
 }
 /*
 .btn-cool{
-    @extend %btn;
+    @extend .btn;
     background-color: $cool-bg;
     color: colorYIQ($cool-bg);
     &:hover{
@@ -55,7 +55,7 @@ none, block, flex, inline-block, inline, inline-flex
 }
 
 .btn-hot{
-    @extend %btn;
+    @extend .btn;
     background-color: $hot-bg;
     color: colorYIQ($hot-bg);
     &:hover{
@@ -64,7 +64,7 @@ none, block, flex, inline-block, inline, inline-flex
 }
 
 .btn-awesome{
-    @extend %btn;
+    @extend .btn;
     background-color: $awesome-bg;
     color: colorYIQ($awesome-bg);
     &:hover{
@@ -73,7 +73,7 @@ none, block, flex, inline-block, inline, inline-flex
 }
 
 .btn-info{
-    @extend %btn;
+    @extend .btn;
     background-color: $info-bg;
     color: colorYIQ($info-bg);
     &:hover{
