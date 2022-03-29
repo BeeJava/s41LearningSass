@@ -582,6 +582,25 @@ header ul a:hover, header ul a.active {
   padding: 30px 0;
 }
 
+.courses-section table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.courses-section table th, .courses-section table td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.courses-section table th thead, .courses-section table td thead {
+  background-color: #940a6d;
+}
+
+.courses-section table th thead th, .courses-section table th thead td, .courses-section table td thead th, .courses-section table td thead td {
+  color: #fff;
+}
+
 .comment-section {
   background-color: transparent;
   padding: 30px 0;
